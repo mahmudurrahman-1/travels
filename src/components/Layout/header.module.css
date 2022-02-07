@@ -1,0 +1,26 @@
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    background-color: #06558a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    box-sizing: 0 0.2rem 0.8rem rgbba(0,0,0,0.25);
+    z-index: 10;
+}   
+
+.main-image{
+    width: 100%;
+    height: 25rem;
+    z-index: 0;
+    overflow: hidden;
+}
+.main-image img{
+    width: 110%;
+    height: 100%;
+}
